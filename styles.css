@@ -1,0 +1,110 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+h3
+{
+  padding: 5% 0;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #1592E6;
+}
+
+.textbox {
+  border: none;
+  background: transparent;
+  text-align: left;
+  padding-left: 20px;
+  width: 93%;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-input-container {
+  border-bottom: 3px solid #afafaf;
+  width: 70%;
+  text-align: left;
+  padding: 4% 2px;
+  padding-bottom: 2px;
+}
+
+.input-check {
+  padding: 5% 2px;
+  padding-bottom: 2px;
+}
+
+.btn {
+  padding:0;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 2%;
+  background: linear-gradient(90deg, red, darkred);
+  width: 60%;
+
+}
+
+.btn:hover {
+  color: white;
+  background: linear-gradient(90deg, darkred, red);
+}
+
+.form-checkbox-container{
+  width: 70%;
+  text-align: left;
+  padding: 4% 2px;
+  padding-bottom: 2px;
+
+}
+
+.credentials-container
+{
+  background-color: #f0f2f3;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
+}
+input[type="checkbox"] {
+    accent-color: #62B918 ;
+}
+.social-icons{
+  border: none;
+  box-shadow: 0px 0px 3px 5px grey;
+  margin : 0 3em;
+}
+
+.fa-solid{
+  font-size: 1em;
+}
+
+.footer-login{
+  margin-left: 98px;
+  padding-top: 40px;
+
+}
+
+@media (max-width:1024px) {
+  .row{
+    display: flex;
+    justify-content: center;
+      }
+  .img-container{
+    display: none;
+  }
+  .credentials-container
+  {
+    text-align: center;
+    width: 65%;
+  }
+  .btn{
+    width: 70%;
+  }
+  .textbox{
+    width: 87%;
+  }
+
+}
